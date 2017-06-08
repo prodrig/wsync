@@ -12,3 +12,10 @@ Sampled data is locally timestamped in order to correlate the information gather
 The main goal of the project is the development of a time synchronization protocol with the following properties:
 1. Minimal drift in the timestamps of sampled data
 2. Maximum power down time
+
+## Software used
+1. [CCSv7](http://processors.wiki.ti.com/index.php/Download_CCS). Code development using the C language.
+  a. SimpleLink cc13x0 SDK.Sofwatre stack for Sub-1 GHz communications
+  b. TI-RTOS. RTOS scheduler
+2. [Doxygen](http://www.stack.nl/~dimitri/doxygen/). Code documentation
+3. [GitKraken](https://www.gitkraken.com/) or [SourceTree](https://www.sourcetreeapp.com/). Git GUI
